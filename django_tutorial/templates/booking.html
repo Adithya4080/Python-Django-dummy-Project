@@ -5,8 +5,14 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Booking Page</h1>
-    <form action="">
-        {{form.as_p}}
-    </form>
+    <h1 class="text-center mt-1">Make An Appointment</h1>
+    <hr>
+    <div class="container w-50 text-center my-5">
+        <form action="">
+            {{form.as_p}}
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
 {% endblock content %}
